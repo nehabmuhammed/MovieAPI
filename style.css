@@ -1,0 +1,122 @@
+/* Body styling */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* Header styling */
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFD700; /* Gold color for the text */
+    margin-bottom: 30px;
+}
+
+/* Search box container styling */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 300px;
+    padding: 12px 20px;
+    border: 2px solid #FFD700; /* Yellow border */
+    border-radius: 30px; /* Rounded corners */
+    background-color: #222; /* Dark input background */
+    color: #fff; /* White text */
+    font-size: 18px; /* Larger font for input */
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+input[type="text"]:focus {
+    border-color: #FFEB3B; /* Lighter yellow on focus */
+    box-shadow: 0 0 8px #FFD700; /* Glowing effect on focus */
+}
+
+/* Button styling */
+button {
+    padding: 12px 24px;
+    background-color: #FFD700; /* Yellow button */
+    border: none;
+    color: #000; /* Black text */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #FFEB3B; /* Lighter yellow on hover */
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.7); /* Add a subtle shadow */
+}
+
+button:active {
+    transform: scale(0.95); /* Slight scale down when clicked */
+}
+
+/* For smaller screens (responsive) */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 80%;
+    }
+
+    button {
+        width: 100px;
+    }
+}
+.movie-details {
+    display: inline-block; /* Center the details container */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit the width of the container */
+    border: 2px solid #FFD700; /* Yellow border */
+    border-radius: 10px; /* Slightly rounded corners */
+    padding: 20px;
+    background-color: #111; /* Dark background inside the container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Subtle shadow effect */
+    margin-top: 20px;
+}
+
+/* Styling for the headings */
+.movie-details h5,
+.movie-details h3 {
+    text-align: left; /* Align text to the left */
+    padding: 10px 0;
+    border-bottom: 1px solid #333; /* Light divider */
+    color: #FFD700; /* Yellow text for headings */
+    margin: 0;
+}
+
+/* Specific styling for individual fields */
+#name {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#year, #director, #actors {
+    font-size: 20px;
+    color: #fff; /* White text for other details */
+}
+
+#actors {
+    padding-bottom: 0; /* Remove bottom padding for the last item */
+    border-bottom: none; /* No border for the last item */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .movie-details {
+        width: 90%; /* Responsive width for smaller screens */
+    }
+}

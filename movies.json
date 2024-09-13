@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Inception",
+        "year": 2010,
+        "director": "Christopher Nolan",
+        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"]
+    },
+    {
+        "id": 2,
+        "name": "The Dark Knight",
+        "year": 2008,
+        "director": "Christopher Nolan",
+        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
+    },
+    {
+        "id": 3,
+        "name": "Interstellar",
+        "year": 2014,
+        "director": "Christopher Nolan",
+        "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+    },
+    {
+        "id": 4,
+        "name": "Parasite",
+        "year": 2019,
+        "director": "Bong Joon-ho",
+        "actors": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"]
+    },
+    {
+        "id": 5,
+        "name": "The Matrix",
+        "year": 1999,
+        "director": "The Wachowskis",
+        "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"]
+    }
+]
